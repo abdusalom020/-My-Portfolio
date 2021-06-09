@@ -1,0 +1,98 @@
+:root {
+  --all-color: #5267df;
+  --text-color: #242a45;
+}
+
+/* GENERAL */
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', 'Arial', sans-serif;
+  background-color: lightblue;
+  color: var(--text-color);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+/* CONTAINER */
+.container {
+  max-width: 1260px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.side-section {
+  
+}
+
+.side-container{
+  display: flex;
+  margin-top: 50px;
+}
+
+.mashqlar {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 28px;
+  letter-spacing: 3px;
+}
+
+.mashqlar-list {
+  margin-right: 50px;
+  list-style: none;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.mashqlar-item {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.mashqlar-link {
+  text-decoration: none;
+  color: red;
+  font-weight: 400;
+  
+}
+
+
